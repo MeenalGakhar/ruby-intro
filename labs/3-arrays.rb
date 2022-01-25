@@ -10,6 +10,10 @@
 # Programmatically combine the two arrays into a single list,
 # sort the result (alphabetically), and write it to the screen.
 # If the two lists contain the same item, only show it once!
+my_shopping_list= ["milk","eggs", "bacon"]
+vivudh_shopping_list =["beer", "cookies", "apples", "bacon"]
+combined_shopping_list= my_shopping_list+ vivudh_shopping_list
+puts combined_shopping_list.uniq.sort
 
 # HINTS
 # Learn to read the documentation!
